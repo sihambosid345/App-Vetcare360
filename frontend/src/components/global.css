@@ -1,0 +1,387 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    color: #212529;
+    padding-top: 7px;
+  }
+  .table th {
+    width: 200px;
+  }
+  .bg-light {
+    background-color: #f9f9f9 !important;
+  }
+  .custom-navbar {
+    background-color: #222;
+  }
+  
+  .custom-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  .navbar-nav .nav-link.active {
+    background-color: #030c05;
+    color: white !important;
+  }
+  
+  
+  .custom-link {
+    color: #ccc !important;
+    margin-left: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+
+  h2 {
+    font-weight: bold;
+  }
+  
+  .table-dark th {
+    background-color: #333;
+    color: white;
+  }
+  .vet-table {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-collapse: collapse;
+  }
+  
+  .vet-table th,
+  .vet-table td {
+    text-align: left;
+    padding: 12px;
+  }
+  
+  .vet-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .vet-table tr:hover {
+    background-color: #e8f0fe;
+    transition: background-color 0.3s ease;
+  }
+  .owner-table th,
+.owner-table td {
+  text-align: left;
+  vertical-align: middle;
+  padding: 12px;
+}
+
+.owner-table tbody tr:hover {
+  background-color: #f0f8ff;
+  transition: background-color 0.3s ease;
+}
+.owner-table .btn-link {
+    color: #000203;
+    text-decoration: underline;
+  }
+  
+  .owner-table .btn-link:hover {
+    color: #01080f;
+    text-decoration: none;
+  }
+  .btn-link {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+  .btn-link:hover {
+    text-decoration: none;
+  }
+    
+  .owner-card {
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .owner-card .card-header {
+    background: linear-gradient(to right, #03070c, #060e09);
+    color: #fff;
+    border: none;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+  }
+  
+  .card-text {
+    font-size: 1.1rem;
+    margin-bottom: 0.8rem;
+  }
+  
+  .button-group {
+    margin-top: 20px;
+  }
+  
+  .button-group .btn {
+    margin-right: 10px;
+  }
+  
+  h2 {
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  h3, h4, h5 {
+    margin-top: 1rem;
+  }
+  
+ 
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+  }
+  th, td {
+    padding: 12px;
+    text-align: left;
+    vertical-align: middle;
+  }
+  .table th {
+    background-color: #343a40;
+    color: white;
+  }
+  .table-bordered {
+    border: 1px solid #dee2e6;
+  }
+  .table-dark th {
+    background-color: #333;
+    color: white;
+  }
+  .table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  .table tbody tr:hover {
+    background-color: #e8f0fe;
+    transition: background-color 0.3s ease;
+  }
+  .table th {
+    width: 200px;
+  }
+  
+  
+  input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+  }
+  
+  
+  button, .btn {
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid #28bb40;
+  }
+  .button-group {
+    margin-top: 20px;
+  }
+  .button-group .btn {
+    margin-right: 10px;
+  }
+  .btn-link {
+    font-weight: bold;
+    text-decoration: underline;
+    background: none;
+    border: none;
+    padding: 0;
+  }
+  .btn-link:hover {
+    text-decoration: none;
+    color: #00070e;
+  }
+  
+
+  .owner-table th,
+  .owner-table td {
+    text-align: left;
+  }
+  .owner-table tbody tr:hover {
+    background-color: #f0f8ff;
+    transition: background-color 0.3s ease;
+  }
+  .owner-table .btn-link {
+    color: #0b0c0e;
+    text-decoration: underline;
+  }
+  .owner-table .btn-link:hover {
+    color: #090a0c;
+  }
+  
+  
+  .vet-table {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .vet-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  .vet-table tr:hover {
+    background-color: #e8f0fe;
+  }
+  
+  .owner-card {
+    border: none;
+    border-radius: 10px;
+  }
+  .owner-card .card-header {
+    background: linear-gradient(to right, #0a0b0c, #010e06);
+    color: #fff;
+    border: none;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+  }
+  .card-text {
+    font-size: 1.1rem;
+    margin-bottom: 0.8rem;
+  }
+  
+  
+  .custom-navbar {
+    background-color: #222;
+  }
+  .custom-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  .navbar-nav .nav-link.active {
+    background-color: #080c09;
+    color: white !important;
+  }
+  .custom-link {
+    color: #ccc !important;
+    margin-left: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  
+  .bg-light {
+    background-color: #f9f9f9 !important;
+  }
+  .btn-custom-outline-green {
+    background-color: #2d2d2d;      
+    color: white;                    
+    
+    border: 2px solid rgb(15, 150, 132);       
+    border-radius: 6px;              
+    padding: 8px 16px;
+    font-weight: 500;
+  }
+  
+  .btn-custom-outline-green:hover {
+    background-color: #1f1f1f;      
+    color: #fff;
+    
+  }
+  .btn-outline-green{
+  
+  background-color: #011806; 
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 12px 20px;
+  margin: 5px;
+  border: 2px solid rgb(15, 150, 132);
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  }
+  .btn-outline-green:hover {
+    background-color:  rgb(15, 150, 132);
+    transform: translateY(-2px);
+  }
+
+  .owner-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .owner-table th,
+  .owner-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .owner-table th {
+    background-color: #333;
+    color: white;
+    text-align: left;
+  }
+  
+  .owner-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .owner-table a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .owner-table a:hover {
+    text-decoration: underline;
+  }
+  .home-background {
+    background-image: url('/public/images/background.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;   
+  }
+  
+  .content-box {
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 16px;
+    max-width: 700px;
+    width: 100%;
+  }
+  
+  .logo {
+    height: 40px;
+
+  }
+  
+  .main-image {
+    width: 300px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .footer-logo {
+    height: 40px;
+    opacity: 0.9;
+  }
+  .home-background, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+  } 
+  #root {
+    height: 100%;
+  }
+  .btn btn-dark{
+    border: 2px solid rgb(15, 197, 24);
+  } 
+  .info-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .info-table th,
+  .info-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  .info-table th {
+    background-color: #f4f4f4;
+    text-align: left;
+    width: 200px;
+  }
